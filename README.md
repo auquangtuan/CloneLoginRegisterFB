@@ -1,6 +1,6 @@
-# Clone Facebook
+# Clone Login Register Facebook
 
 ##### Âu Quang Tuấn.
-##### Ngày Bắt Đầu : 07/11/2022
-##### Ngày Kết Thúc : ...cập nhật sau khi hoàn thành.
+##### Ngày Bắt Đầu : 01/12/2022
+##### Ngày Kết Thúc : 06/12/2022.
 ##### Mục Đích : Xin Fresher ReactJS
