@@ -1,0 +1,37 @@
+.ItemHoverMain {
+    padding: 0 8px 0 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    border-radius: 8px;
+    &:hover {
+        background-color: var(--bg-third);
+    }
+    >img {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+    }
+    .infomation_item {
+        flex-shrink: 1;
+        width: 100%;
+        padding: 0 0 0 8px;
+        >h6 {
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 20px;
+        }
+    }
+    .hover_close {
+        transition: all .1s ease-in-out;
+        &:hover {
+            padding: 11px;
+            border-radius: 50%;
+            cursor: pointer;
+            background-color: var(--bg-forth) ;
+        }
+    }
+}

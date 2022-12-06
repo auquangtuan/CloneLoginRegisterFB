@@ -1,0 +1,18 @@
+.buttonComponent {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    cursor: pointer;
+    font-weight: semi-bold;
+}
+.blue {
+    background-color: var(--blue-color);
+    color: var(--bg-primary);
+}
+.green {
+    background-color: var(--green-color);
+    color: var(--bg-primary);
+}

@@ -1,0 +1,98 @@
+header {
+    position: fixed;
+    top: 0;
+    height: 56px;
+    z-index: 999;
+    background-color: var(--bg-primary);
+    width: 100%;
+    box-shadow: 1px 8px 15px -7px var(--shadow-2);
+    color: var(--color-primary);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    .header_left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 5px 1rem;
+        .header_logo {
+            .circle_logo {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .header_search {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background-color: var(--bg-forth);
+            padding: 10px 32px 10px 10px;
+            border-radius: 50px;
+            > input {
+                outline: none;
+                border: none;
+                background: transparent;
+                font-size: 15px;
+                font-family: inherit;
+            }
+            &:hover {
+                > input {
+                    transform: translateY(-1px);
+                }
+            }
+            .header_search_box {
+                z-index: 9999;
+                position: absolute;
+                height: 517px;
+                width: 320px;
+                background-color : var(--bg-primary);
+                top : 48px;
+                left: -28%;
+                padding: 8px;
+                box-shadow: 0px 5px 5px 1px rgba(150, 140, 140, 0.616);
+                .header_title {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    padding: 12px 8px;
+                    .title_search {
+                        font-size: 1rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .header_middle {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        transform: translate(3px);
+        .header_menu_middle {
+            width: 125px;
+            height: 50px;
+            border-radius: 10px;
+        }
+    }
+    .header_right {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        justify-content: flex-end;
+        .header_right_menu {
+            background: var(--bg-third);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            &:hover {
+                background: var(--shadow-1);
+            }
+        }
+        margin-right: 1rem;
+    }
+}

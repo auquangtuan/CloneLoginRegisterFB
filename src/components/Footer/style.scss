@@ -1,0 +1,21 @@
+.registerBussiness {
+    padding: 1rem 0;
+    background-color: var(--bg-primary);
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    .loginFooterWrapper {
+        .footerSquare {
+            background-color: #f5f6f7;
+            margin-left: 10px;
+            border: 1px solid var(--border-color);
+            padding: 2px;
+            background-position: -2px 1px;
+        }
+    }
+    .copyRight {
+        font-size: 11px;
+        color: var(--link-footer);
+        padding: 0.5rem;
+    }
+}

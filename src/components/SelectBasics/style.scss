@@ -1,0 +1,11 @@
+.SelectBasic {
+    width: 30%;
+    height: 40px;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    .selectOption {
+        background-color: var(--primary-color);
+        font-size: 17px;
+    }
+}
